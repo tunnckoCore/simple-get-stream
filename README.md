@@ -64,6 +64,11 @@ stream.pipe(through2(function (buf) {
 ```
 
 
+## Related
+- [simple-get](https://github.com/feross/simple-get): Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines.
+- [then-got](https://github.com/hybridables/then-got): Promisified `simple-get`.
+
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/simple-get-stream/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
