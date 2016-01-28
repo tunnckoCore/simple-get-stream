@@ -1,0 +1,26 @@
+{
+  "name": "simple-get-stream",
+  "version": "0.0.0",
+  "description": "> Simply wraps `simple-get` and his methods to return Response stream instead of Request stream. For example simpleGet.get('http://httpbin.org/ip').pipe(process.stdout)",
+  "repository": "tunnckoCore/simple-get-stream",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "simple-get": "^1.4.3",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "is-buffer": "^1.1.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "simple-get-stream"
+  ]
+}
