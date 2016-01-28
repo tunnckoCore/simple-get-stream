@@ -21,6 +21,19 @@
     "index.js"
   ],
   "keywords": [
-    "simple-get-stream"
+    "deflate",
+    "get",
+    "got",
+    "gzip",
+    "http",
+    "https",
+    "promise",
+    "request",
+    "response",
+    "simple",
+    "simple-get-stream",
+    "simplified",
+    "stream",
+    "then"
   ]
 }
