@@ -1,6 +1,6 @@
 {
   "name": "simple-get-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply wraps `simple-get` and his methods to return Response stream instead of Request stream. For example simpleGet.get('http://httpbin.org/ip').pipe(process.stdout)",
   "repository": "tunnckoCore/simple-get-stream",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
