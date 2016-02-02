@@ -4,6 +4,7 @@
   "description": "Simply wraps `simple-get` and his methods to return Response stream instead of Request stream. For example simpleGet.get('http://httpbin.org/ip').pipe(process.stdout)",
   "repository": "tunnckoCore/simple-get-stream",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -15,7 +16,8 @@
   },
   "devDependencies": {
     "assertit": "^0.1.0",
-    "is-buffer": "^1.1.1"
+    "is-buffer": "^1.1.1",
+    "pre-commit": "^1.1.2"
   },
   "files": [
     "index.js"
