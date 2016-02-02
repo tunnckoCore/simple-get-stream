@@ -24,6 +24,16 @@ test('should main export simpleGet() returns response stream', function (done) {
   }))
 })
 
+test('should have response stream in `stream.res` property', function (done) {
+  var stream = request('http://www.tunnckocore.tk')
+
+  stream.once('error', done)
+  stream.pipe(through2(function (buf) {
+    test.ok(stream.res)
+    done()
+  }))
+})
+
 test('should work for other methods and return response stream', function (done) {
   var stream = request.post({
     url: 'http://httpbin.org/post',

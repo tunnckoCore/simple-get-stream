@@ -31,6 +31,7 @@ var through2 = require('through2')
 function simpleGetStream (opts) {
   var stream = through2()
   stream.req = simpleGet.call(this, opts, function callback (err, res) {
+    stream.res = res
     if (err) return stream.emit('error', err)
     res.pipe(stream)
   })
