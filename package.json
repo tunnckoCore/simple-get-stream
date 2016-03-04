@@ -1,7 +1,7 @@
 {
   "name": "simple-get-stream",
   "version": "1.0.1",
-  "description": "Simply wraps `simple-get` and his methods to return Response stream instead of Request stream. For example simpleGet.get('http://httpbin.org/ip').pipe(process.stdout)",
+  "description": "Simply wraps [simple-get][] and his methods to return Response stream instead of Request stream. Simple as `simpleGet.get(url).pipe(process.stdout)`",
   "repository": "tunnckoCore/simple-get-stream",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "precommit.silent": true,
@@ -37,5 +37,30 @@
     "simplified",
     "stream",
     "then"
-  ]
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "simple-get",
+        "simple-get-stream",
+        "then-got",
+        "github-base",
+        "npm-info",
+        "request-all"
+      ]
+    },
+    "reflinks": [
+      "simple-get",
+      "through2"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }

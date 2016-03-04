@@ -11,7 +11,7 @@ var simpleGet = require('simple-get')
 var through2 = require('through2')
 
 /**
- * Request a page and return a response stream
+ * > Request a page and return a response stream
  *
  * **Example**
  *
@@ -24,8 +24,8 @@ var through2 = require('through2')
  * ```
  *
  * @name  simpleGetStream
- * @param  {String|Object} `<opts>` url or options object, passed to `simple-get`
- * @return {Stream} Response stream instead of Request stream as `simple-get` does
+ * @param  {String|Object} `<opts>` Url or options object, passed to `simple-get`.
+ * @return {Stream} Response stream instead of Request stream as `simple-get` does.
  * @api public
  */
 function simpleGetStream (opts) {
