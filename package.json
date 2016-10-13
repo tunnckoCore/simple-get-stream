@@ -11,7 +11,7 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "simple-get": "^2.2.0",
+    "simple-get": "^2.3.0",
     "through2": "^2.0.0"
   },
   "devDependencies": {
